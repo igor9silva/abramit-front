@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Negociação Aluguel</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+	<link href="proposal.css" rel="stylesheet">
+</head>
+<body>
+
+	<div id="content1">
+		<h1>Resumo proposta José Diaz</h1>
+
+		<br/>
+
+		<b>Condomínio:</b> <p>R$450,00</p>
+		<b>IPTU:</b> <p>R$150,00</p>
+		<b>Alguel:</b> <p>R$1500,00</p>
+		<b>Condições:</b> <p>Consertar vazamento do banheiro</p>
+		<b>Quem vai morar no imóvel?</b> <p>Me chamo José Diaz, 24 anos, estudando de direto na PUS-SP. Estou em busca de um local próximo a faculdade para residir sozinho.</p>
+		<b>Animais:</b> <p>Não, não terei animais.</p>
+
+		<br/>
+	</div>
+
+	<form action="/app/owner.html"><input value="Aceitar" type="submit" class="btn btn-success"/></button></form>
+	<button id="counter" type="submit" class="btn btn-light">Fazer contra-proposta</button>
+
+	<br/>
+	<br/>
+
+	<form id="formCounter" style="display: none">
+
+	  <div class="form-row">
+	    <div class="form-group col-md-6">
+	      <label for="inputEmail4">Condomínio</label>
+	      <input value="R$450,00" type="text" class="form-control" id="inputEmail4" placeholder="Condomínio" disabled>
+	    </div>
+	    <div class="form-group col-md-6">
+	      <label for="inputPassword4">IPTU</label>
+	      <input value="R$150,00" type="text" class="form-control" id="inputPassword4" placeholder="IPTU" disabled>
+	    </div>
+	  </div>
+
+	  <div class="form-group">
+	    <div class="form-check">
+	      <label class="form-check-label">
+	        <input class="form-check-input" type="checkbox">Eu concordo com os valores acima.
+	      </label>
+	    </div>
+	  </div>
+
+	  <div class="form-group">
+	    <label for="inputAddress">Proposta Aluguel</label>
+	    <input type="text" class="form-control" id="inputAddress" placeholder="R$1500,00">
+	  </div>
+
+	  <div class="form-group">
+	    <div class="form-check">
+	      <label class="form-check-label">
+	        <input class="form-check-input" type="checkbox">Eu entendo e aceito que para alugar este imóvel preciso comprovar renda de 4x o valor do aluguel.
+	      </label>
+	    </div>
+	  </div>
+
+	  <div class="form-group">
+	    <label for="inputAddress2">Condições</label>
+	    <input type="text" class="form-control" id="inputAddress2" placeholder="Caso precise negociar algum reparo, inclusão ou retirada com o proprietário, aqui é o lugar.">
+	  </div>
+
+	  <div class="form-group">
+	    <label for="inputAddress2">Quem vai morar no imóvel?</label>
+	    <input type="text" class="form-control" id="inputAddress2" placeholder="É muito importante para o proprietário te aprovar, quanto mais detalhado, maiores são as chances de aprovação.">
+	  </div>
+
+	<div class="form-group">
+		<label for="inputAddress2">Você terá animais de estimação?</label>
+		<br/>
+		<div class="form-check form-check-inline">
+			<label class="form-check-label">
+			   <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">Não, não terei animais.
+		    </label>
+		</div>
+		<div class="form-check form-check-inline">
+		    <label class="form-check-label">
+			    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">Sim, terei animais de estimação.
+			</label>
+		</div>
+	</div>
+
+	<button type="submit" class="btn btn-light">Enviar Proposta</button>
+
+	</form>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+	<script src="proposal.js" "></script>
+</body>
+</html>
