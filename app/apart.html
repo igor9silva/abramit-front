@@ -65,11 +65,11 @@
             <!-- Fim efeito carrousel -->
       <br>
       <div class="container-fluid col-md-8">
-          <a href="#"><button type="button" class="btn btn-primary">Gostei</button></a>
-          <a href="#"><button type="button" class="btn btn-secondary">Talvez</button></a>
-          <a href="#"><button type="button" class="btn btn-danger">Não gostei, muito caro</button></a>
-          <a href="#"><button type="button" class="btn btn-danger">Não gostei, muito longe</button></a>
-          <a href="#"><button type="button" class="btn btn-danger">Não gostei, não me atende</button></a>
+          <a href="#"><button id="btn1" type="button" class="btn btn-primary">Gostei</button></a>
+          <a href="#"><button id="btn2" type="button" class="btn btn-secondary">Talvez</button></a>
+          <a href="#"><button id="btn3" type="button" class="btn btn-danger">Não gostei, muito caro</button></a>
+          <a href="#"><button id="btn4" type="button" class="btn btn-danger">Não gostei, muito longe</button></a>
+          <a href="#"><button id="btn5" type="button" class="btn btn-danger">Não gostei, não me atende</button></a>
       </div>
 <!-- Fim parte principal -->  
 
@@ -135,5 +135,29 @@
 <!-- Fim parte contato -->
 
 <br><br>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+  <script type="text/javascript">
+    
+      var b1 = document.getElementById('btn1');
+      var b2 = document.getElementById('btn2');
+      var b3 = document.getElementById('btn3');
+      var b4 = document.getElementById('btn4');
+      var b5 = document.getElementById('btn5');
+
+      function redir() {
+        window.location = 'apart2.html';
+      }
+
+      b1.onclick = redir;
+      b2.onclick = redir;
+      b3.onclick = redir;
+      b4.onclick = redir;
+      b5.onclick = redir;
+
+  </script>
 
 </body></html>

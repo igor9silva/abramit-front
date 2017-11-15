@@ -50,7 +50,7 @@ $(function() {
 		$(spinner).addClass('fade-in');
 
 		setTimeout(function() {
-			window.location = 'detail.html';
+			window.location = 'apart.html';
 		}, 2000);
 	}
 
