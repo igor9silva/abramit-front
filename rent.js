@@ -48,6 +48,10 @@ $(function() {
 		var spinner = document.getElementById('bg-spinner');
 		$(spinner).show();
 		$(spinner).addClass('fade-in');
+
+		setTimeout(function() {
+			window.location = 'detail.html';
+		}, 2000);
 	}
 
 	function hide(element) {
