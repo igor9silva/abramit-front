@@ -8,7 +8,6 @@
 
     <title>Quero alugar meu imóvel</title>
 
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
 
     <link href="owner.css" rel="stylesheet">
@@ -28,15 +27,19 @@
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
                 <li>
-                    <a href="#"><b>William Foo</b>
+                    <a id="jose" href="#"><b>José Diaz</b>
+                    <i class="icon ion-checkmark-round"></i></a>
+                </li>
+                <li>
+                    <a id="william" href="#"><b>William Foo</b>
                     <i class="icon ion-arrow-graph-up-right"></i></a>
                 </li>
                 <li>
-                    <a href="#"><b>Carla Bar</b>
+                    <a id="carla" href="#"><b>Carla Bar</b>
                     <i class="icon ion-arrow-graph-down-right"></i></a>
                 </li>
                 <li>
-                    <a href="#"><b>Pedro Baz</b>
+                    <a id="pedro" href="#"><b>Pedro Baz</b>
                     <i class="icon ion-arrow-graph-down-right"></i></a>
                 </li>
             </ul>
@@ -45,23 +48,165 @@
         <div id="page-content-wrapper">
 
             <div id="sidebar-content">
-                <h1>
-                    William Foo
-                </h1>
+                <h1>José Diaz</h1>
             </div>
 
             <div class="container-fluid">
-                <h1>Simple Sidebar</h1>
-                <p>This template has a responsive menu toggling system. The menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will appear/disappear. On small screens, the page content will be pushed off canvas.</p>
-                <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>.</p>
+
+            <div id="content0">
+
+                <h1>José Diaz</h1>
+
+                <div class="entries">
+                  <div class="entry">
+                    <div class="title">11 de Novembro</div>
+                    <div class="body">
+                      <p>José acessou pela primeira vez o seu imóvel (a partir de uma pesquisa no Google). E gostou <i class="icon ion-happy-outline"></i></p>
+                    </div>
+                  </div>
+                  <div class="entry">
+                    <div class="title big">11 de Novembro</div>
+                    <div class="body">
+                      <p>Usuário solicitou uma visita! Que tal amanhã de manhã?</p>
+                    </div>
+                  </div>
+                  <div class="entry">
+                    <div class="title big">Trending <i class="icon ion-arrow-graph-up-right"></i></div>
+                    <div class="body">
+                      <p>Probabilidade alta de receber proposta. Fique de olho!</p>
+                    </div>
+                  </div>
+                  <div class="entry">
+                    <div class="title big">Proposta recebida!</div>
+                    <div class="body">
+                      <p>José te enviou uma proposta, revise-a a reponda pelo botão abaixo.</p>
+                    </div>
+                  </div>
+                  <div class="entry">
+                    <div class="body">
+                      <p><button class="action-button">Responder proposta</button></p>
+                    </div>
+                  </div>
+
+                </div>
+
+            </div>
+
+            <div id="content1" class="content-hidden">
+
+                <h1>William Foo</h1>
+
+                <div class="entries">
+                  <div class="entry">
+                    <div class="title">1 de Novembro</div>
+                    <div class="body">
+                      <p>William acessou pela primeira vez o seu imóvel (a partir de um link compartilhado). E gostou <i class="icon ion-happy-outline"></i></p>
+                    </div>
+                  </div>
+                  <div class="entry">
+                    <div class="title big">2 de Novembro</div>
+                    <div class="body">
+                      <p>Imóvel favoritado <i class="icon ion-star"></i> William voltou ao anúncio e adicionou o imóvel em seus favoritos!</p>
+                    </div>
+                  </div>
+                  <div class="entry">
+                    <div class="title">5 de Novembro</div>
+                    <div class="body">
+                      <p>William completou seu perfil de crédito a partir do seu imóvel.</p>
+                    </div>
+                  </div>
+                  <div class="entry">
+                    <div class="title">6 de Novembro</div>
+                    <div class="body">
+                      <p>Usuário solicitou uma visita! Que tal amanhã de manhã?</p>
+                    </div>
+                  </div>
+                  <div class="entry">
+                    <div class="title big">Trending <i class="icon ion-arrow-graph-up-right"></i></div>
+                    <div class="body">
+                      <p>Probabilidade alta de receber proposta. Fique de olho!</p>
+                    </div>
+                  </div>
+
+                </div>
+
+            </div>
+
+            <div id="content2" class="content-hidden">
+
+                <h1>Carla Bar</h1>
+
+                <div class="entries">
+                  <div class="entry">
+                    <div class="title">7 de Novembro</div>
+                    <div class="body">
+                      <p>Carla acessou pela primeira vez o seu imóvel (a partir da busca principal). E gostou <i class="icon ion-happy-outline"></i></p>
+                    </div>
+                  </div>
+                  <div class="entry">
+                    <div class="title big">10 de Novembro</div>
+                    <div class="body">
+                      <p>Carla compartilhou seu anúncio!</p>
+                    </div>
+                  </div>
+                  <div class="entry">
+                    <div class="title">15 de Novembro</div>
+                    <div class="body">
+                      <p>Carla visitou alguns imóveis parecidos na região. Que tal um descotinho? Nós a avisaremos!</p>
+                    </div>
+                  </div>
+                  <div class="entry">
+                    <div class="body">
+                      <p><button class="action-button">Dar desconto</button></p>
+                    </div>
+                  </div>
+
+                </div>
+
+            </div>
+
+            <div id="content3" class="content-hidden">
+
+                <h1>Pedro Baz</h1>
+
+                <div class="entries">
+                  <div class="entry">
+                    <div class="title">24 de Outubro</div>
+                    <div class="body">
+                      <p>Pedro acessou pela primeira vez o seu imóvel (a partir da busca principal).</p>
+                    </div>
+                  </div>
+                  <div class="entry">
+                    <div class="title big">24 de Outubro</div>
+                    <div class="body">
+                      <p>Pedro adicionou seu imóvel em uma lista privada!</p>
+                    </div>
+                  </div>
+                  <div class="entry">
+                    <div class="title">15 de Novembro</div>
+                    <div class="body">
+                      <p>Parece que Pedro se desinteressou pelo imóvel. Que tal dar uma renovada no anúncio?</p>
+                    </div>
+                  </div>
+                  <div class="entry">
+                    <div class="body">
+                      <p><button class="action-button">Adicionar novas fotos</button></p>
+                    </div>
+                  </div>
+
+                </div>
+
+            </div>
+
             </div>
         </div>
 
     </div>
 
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script src="owner.js" "></script>
 </body>
 
 </html>
