@@ -14,152 +14,144 @@
 
 <body>
 
+	<div id="bg-spinner" style="display: none">
+    	<div class="sk-three-bounce">
+			<div class="sk-child sk-bounce1"></div>
+			<div class="sk-child sk-bounce2"></div>
+			<div class="sk-child sk-bounce3"></div>
+		</div>
+
+		<h1>Encontrando seu lar ideal</h1>
+    </div>
+
     <div class="site-wrapper">
 
       <div class="site-wrapper-inner">
 
         <div class="cover-container">
 
-          <!-- <header class="masthead clearfix">
-            <div class="inner">
-              <h3 class="masthead-brand">Eu quero um lar</h3>
-              <nav class="nav nav-masthead">
-                <a class="nav-link active" href="#">Home</a>
-                <a class="nav-link" href="#">Features</a>
-                <a class="nav-link" href="#">Contact</a>
-              </nav>
-            </div>
-          </header> -->
+		    <div id="slide1" class="carousel-item active slide-in">
+		    <main role="main" class="inner cover">
+		      
+		    	<h1 class="cover-heading">O que é mais importante para você?</h1>
 
-   <!--        	<div id="maisCarousel" 
-          		class="carousel slide"
-          		data-ride="carousel"
-          		data-interval="false">
+		    	<h6 class="minimal">Não se preocupe, isso não esconderá nenhum imóvel.</h6>
 
-			  <div class="carousel-inner"> -->
+	          	<br/>
 
-			    <div id="slide1" class="carousel-item active slide-in">
-			    <main role="main" class="inner cover">
-			      
-			    	<h1 class="cover-heading">O que é mais importante para você?</h1>
+	          	<div class="btn-group btn-group-lg" data-toggle="buttons">
 
-			    	<h6 class="minimal">Não se preocupe, isso não esconderá nada.</h6>
+					<label class="btn btn-outline-light btn-lg">
+						<input type="radio">Localização
+					</label>
 
-		          	<br/>
+					<label class="btn btn-outline-light btn-lg">
+						<input type="radio">Qualidade
+					</label>
 
-		          	<div class="btn-group btn-group-lg" data-toggle="buttons">
+					<label class="btn btn-outline-light btn-lg">
+						<input type="radio">Preço
+					</label>
 
-						<label class="btn btn-outline-light btn-lg">
-							<input type="radio">Localização
-						</label>
+	          	</div>
 
-						<label class="btn btn-outline-light btn-lg">
-							<input type="radio">Qualidade
-						</label>
+            </main>
+			</div>
 
-						<label class="btn btn-outline-light btn-lg">
-							<input type="radio">Preço
-						</label>
+			<div id="slide2" class="carousel-item active slide-out">
+		    <main role="main" class="inner cover">
+		      
+		    	<h1 class="cover-heading">De quantos quartos você precisa?</h1>
 
-		          	</div>
+	          	<br/>
 
-	            </main>
+	          	<div class="btn-group btn-group-lg" data-toggle="buttons">
+
+					<label class="btn btn-outline-light btn-lg">
+						<input type="radio">Studio/Kitnet
+					</label>
+
+					<label class="btn btn-outline-light btn-lg">
+						<input type="radio">1 quarto
+					</label>
+
+					<label class="btn btn-outline-light btn-lg">
+						<input type="radio">2 quartos
+					</label>
+
+					<label class="btn btn-outline-light btn-lg">
+						<input type="radio">3+ quartos
+					</label>
+
+	          	</div>
+
+            </main>
+			</div>
+
+			<div id="slide3" class="carousel-item active slide-out">
+		    <main role="main" class="inner cover">
+		      
+		    	<h1 class="cover-heading">Qual o seu limite de gasto mensal?</h1>
+
+		    	<h6 class="minimal">Já incluindo IPTU e condomínio.</h6>
+
+	          	<br/>
+
+	          	<div class="btn-group btn-group-lg" data-toggle="buttons">
+
+	          		<div class="input-group"> 
+				        <span class="input-group-addon">R$</span>
+				        <input type="number" value="1500.00" min="0" step="100" data-number-to-fixed="2" data-number-stepfactor="100" class="form-control currency" id="c2"/>
+				    </div>
+
+	          	</div>
+
+            </main>
+			</div>
+
+			<div id="slide4" class="carousel-item active slide-out">
+		    <main role="main" class="inner cover">
+		      
+		    	<h1 class="cover-heading">Quais destes items são essenciais para você?</h1>
+
+		    	<h6 class="minimal">Selecione os que você não abre mão.</h6>
+
+	          	<br/>
+
+	          	<div class="btn-group btn-group-lg" data-toggle="buttons">
+
+					<label class="btn btn-outline-light btn-lg">
+						<input type="checkbox">Mobiliado
+					</label>
+
+					<label class="btn btn-outline-light btn-lg">
+						<input type="checkbox">Psicina
+					</label>
+
+					<label class="btn btn-outline-light btn-lg">
+						<input type="checkbox">Churrasqueira
+					</label>
+
 				</div>
 
-				<div id="slide2" class="carousel-item active slide-out">
-			    <main role="main" class="inner cover">
-			      
-			    	<h1 class="cover-heading">De quantos quartos você precisa?</h1>
+				<div class="btn-group btn-group-lg" data-toggle="buttons">
 
-		          	<br/>
+					<label class="btn btn-outline-light btn-lg">
+						<input type="checkbox">Academia
+					</label>
 
-		          	<div class="btn-group btn-group-lg" data-toggle="buttons">
+					<label class="btn btn-outline-light btn-lg">
+						<input type="checkbox">Vaga de Garagem
+					</label>
 
-						<label class="btn btn-outline-light btn-lg">
-							<input type="radio">Studio/Kitnet
-						</label>
+					<label class="btn btn-outline-light btn-lg">
+						<input type="checkbox">Banheira
+					</label>
 
-						<label class="btn btn-outline-light btn-lg">
-							<input type="radio">1 quarto
-						</label>
+	          	</div>
 
-						<label class="btn btn-outline-light btn-lg">
-							<input type="radio">2 quartos
-						</label>
-
-						<label class="btn btn-outline-light btn-lg">
-							<input type="radio">3+ quartos
-						</label>
-
-		          	</div>
-
-	            </main>
-				</div>
-
-				<div id="slide3" class="carousel-item active slide-out">
-			    <main role="main" class="inner cover">
-			      
-			    	<h1 class="cover-heading">Qual o seu limite de gasto mensal?</h1>
-
-			    	<h6 class="minimal">Já incluindo IPTU e condomínio.</h6>
-
-		          	<br/>
-
-		          	<div class="btn-group btn-group-lg" data-toggle="buttons">
-
-		          		<div class="input-group"> 
-					        <span class="input-group-addon">R$</span>
-					        <input type="number" value="1500.00" min="0" step="100" data-number-to-fixed="2" data-number-stepfactor="100" class="form-control currency" id="c2"/>
-					    </div>
-
-		          	</div>
-
-	            </main>
-				</div>
-
-				<div id="slide4" class="carousel-item active slide-out">
-			    <main role="main" class="inner cover">
-			      
-			    	<h1 class="cover-heading">Quais items são essenciais para você?</h1>
-
-			    	<h6 class="minimal">Selecione os que você não abre mão.</h6>
-
-		          	<br/>
-
-		          	<div class="btn-group btn-group-lg" data-toggle="buttons">
-
-						<label class="btn btn-outline-light btn-lg">
-							<input type="checkbox">Mobiliado
-						</label>
-
-						<label class="btn btn-outline-light btn-lg">
-							<input type="checkbox">Psicina
-						</label>
-
-						<label class="btn btn-outline-light btn-lg">
-							<input type="checkbox">Churrasqueira
-						</label>
-
-					</div>
-
-					<div class="btn-group btn-group-lg" data-toggle="buttons">
-
-						<label class="btn btn-outline-light btn-lg">
-							<input type="checkbox">Academia
-						</label>
-
-						<label class="btn btn-outline-light btn-lg">
-							<input type="checkbox">Vaga de Garagem
-						</label>
-
-						<label class="btn btn-outline-light btn-lg">
-							<input type="checkbox">Banheira
-						</label>
-
-		          	</div>
-
-	            </main>
-				</div>
+            </main>
+			</div>
 
           <footer class="mastfoot">
             <div class="inner">

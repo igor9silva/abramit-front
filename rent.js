@@ -43,6 +43,13 @@ $(function() {
 		}
 	}
 
+	finishButton.onclick = function() {
+
+		var spinner = document.getElementById('bg-spinner');
+		$(spinner).show();
+		$(spinner).addClass('fade-in');
+	}
+
 	function hide(element) {
 		$(element).removeClass('slide-in-right');
 		$(element).removeClass('slide-in-left');
