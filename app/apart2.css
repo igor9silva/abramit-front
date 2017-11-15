@@ -1,0 +1,84 @@
+/*Inicio nav=Navegação*/
+.linkColor{
+  font-size: 1.1em;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  transition: all .5s;
+  border-radius: 10px 10px 10px 10px;
+}
+.linkColor:hover{
+  background: linear-gradient(#fc532a, #f86541, red);
+}
+/*Fim nav=Navegação*/
+
+
+/*Inicio parte caracteristicas*/
+.myRow{
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.txtgeneros{
+  font-size: 2em;
+  color: #212121;
+  padding-left: 100px;
+  font-family: tahoma, Geneva, sans-serif;
+}
+.txtquarto{
+  font-size: 1.5em;
+  color: #212121;
+  text-align: center;
+  font-family: tahoma, Geneva, sans-serif;
+}
+.txtbanheiro{
+  font-size: 1.5em;
+  color: #212121;
+  text-align: center;
+  font-family: tahoma, Geneva, sans-serif;
+}
+.txtinfraestrutura{
+  font-size: 1.5em;
+  color: #212121;
+  text-align: center;
+  font-family: tahoma, Geneva, sans-serif;
+}
+hr{
+	width: 80%;
+	background-color: black;
+}
+.featurette-divider{
+	width: 100%;
+	background-color: black;
+}
+/*Fim parte caraceristica*/
+
+
+/*Inicio parte detalhes*/
+.txtdetalhes{
+  font-size: 2em;
+  color: #212121;
+  font-family: tahoma, Geneva, sans-serif;
+}
+.paragrafodetalhes{
+  font-size: 1.2em;
+  color: #212121;
+  text-align: center;
+  font-family: tahoma, Geneva, sans-serif;
+}
+/*Fim parte detalhes*/
+
+
+
+/*Inicio parte contato*/
+.titulocontato{
+  font-size: 2em;
+  color: #212121;
+  text-align: left;
+  margin-left: -35px;
+  font-family: tahoma, Geneva, sans-serif;
+}
+/*Fim parte contato*/
